@@ -392,10 +392,10 @@ img {
     font-size: 0.65rem;
   }
   .line-L {
-    max-width: 300px;
+    width: 200px;
   }
   .line-R {
-    max-width: 300px;
+    width: 200px;
   }
   .menu-text {
     font-size: 0.5rem;
