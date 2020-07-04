@@ -362,6 +362,12 @@ img {
     background-size: cover;
     max-height: 800px;
   }
+    .nav-concept {
+    margin-left: 10px;
+  }
+  .nav-access {
+    margin-right: 10px;
+  }
 
   #CONCEPT {
     max-height: 800px;
