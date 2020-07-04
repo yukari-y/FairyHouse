@@ -344,4 +344,15 @@ img {
   HTML {
     font-size: 2rem;
   }
+  .main-nav {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .main-nav li {
+    margin-top: 20%;
+  }
+  
+  #HOME {
+    margin-top: 20%
+  }
 }
