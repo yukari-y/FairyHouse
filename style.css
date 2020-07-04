@@ -353,6 +353,6 @@ img {
   }
   
   #HOME {
-    margin-top: 20%
+    background-size: cover;
   }
 }
