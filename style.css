@@ -27,7 +27,7 @@ img {
 .logo {
   top: 12px;
   width: 8vw;
-  min-width: 90px;
+  min-width: 120px;
   margin-right: 2vw;
 }
 .main-nav {
@@ -52,7 +52,7 @@ img {
 
 /* ホーム --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #HOME {
-  background-image: url("image/bg_top.png");
+  background-image: url(../image/bg_top.png);
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,7 +75,7 @@ img {
 
 /* コンセプト --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #CONCEPT {
-  background-image: url("image/bg_concept.png");
+  background-image: url(../image/bg_concept.png);
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -106,7 +106,7 @@ img {
 
 /* メニュー --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #MENU {
-  background-image: url("image/bg_menu.png");
+  background-image: url(../image/bg_menu.png);
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -181,13 +181,12 @@ img {
 .tea-text p {
   border: double 1px #707070;
   padding: 3px;
-  margin-top: 4vh;
-  margin-bottom: 100px;
+  margin: 4vh 40px 100px 40px;
 }
 
 /* フェアリー --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #FAIRY {
-  background-image: url("image/bg_fairy.png");
+  background-image: url(../image/bg_fairy.png);
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -239,7 +238,7 @@ img {
 
 /* フェアリー・個別 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #FAIRYs {
-  background-image: url("image/bg_fairys.png");
+  background-image: url(../image/bg_fairys.png);
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -294,7 +293,7 @@ img {
 
 /* アクセス --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #ACCESS {
-  background-image: url("image/bg_access.png");
+  background-image: url(../image/bg_access.png);
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -344,27 +343,111 @@ img {
   HTML {
     font-size: 2rem;
   }
-  .main-nav {
-    font-size: 0.5rem;
-    margin-top: 10px;
+  .footer {
+    padding: 5px;
   }
-  
+  .footer p {
+    font-size: 0.6rem;
+  }
+  .main-nav {
+    font-size: 0.65rem;
+    padding-top: 8px;
+  }
+  .logo {
+    padding-top: 8px;
+    min-width: 100px;
+  }
+
   #HOME {
     background-size: cover;
   }
+
   #CONCEPT {
-    background-size: cover;
+    max-height: 800px;
   }
+  .concept {
+  font-size: 0.4rem;
+  }
+  .concept-title {
+    margin-top: 150px;
+  }
+  .concept-text1 {
+    margin-top: 20px;
+  }
+  .concept-text2 {
+    margin-top: 10px;
+  }
+
   #MENU {
-    background-size: cover;
-  } 
+    max-height: 800px;
+  }
+  .FOOD-line {
+    margin-top: 150px;
+    min-height: 10vh;
+  }
+  .food-text {
+    font-size: 0.65rem;
+  }
+  .menu-text {
+    font-size: 0.5rem;
+  }
+  .cake-text {
+    font-size: 0.5rem;
+  }
+  .DRINK-line {
+    margin-top: 70px;
+    min-height: 10vh;
+  }
+  .drink-text {
+    font-size: 0.65rem;
+  }
+  .tea-text {
+    font-size: 0.5rem;
+  }
+
   #FAIRY {
-    background-size: cover;
+    max-height: 800px;
   }
+  .frame-top {
+    margin-top: 160px;
+  }
+  .frame-bottom {
+    margin-top: 5px;
+  }
+  .fairy-text1 {
+    font-size: 0.55rem;
+    margin-top: 5px;
+  }
+  .fairy-text2 {
+    font-size: 0.55rem;
+  }
+  .fairy-name {
+    font-size: 0.65rem;
+  }
+
   #FAIRYs {
-    background-size: cover;
+    max-height: 800px;
   }
+  .frame-member-top {
+    margin-top: 170px;
+  }
+  .member-text h1 {
+    font-size: 0.85rem;
+  }
+  .member-text h2 {
+    font-size: 0.5rem;
+  }
+
   #ACCESS {
-    background-size: cover;
+    max-height: 800px;
+  }
+  .frame-top2 {
+    margin-top: 170px;
+  }
+  .ACCESS-text h1 {
+    font-size: 0.85rem;
+  }
+  .ACCESS-text h2 {
+    font-size: 0.58rem;
   }
 }
