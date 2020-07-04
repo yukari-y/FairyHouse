@@ -350,7 +350,7 @@ img {
     font-size: 0.6rem;
   }
   .main-nav {
-    font-size: 0.5rem;
+    font-size: 0.65rem;
     padding-top: 8px;
   }
   .logo {
@@ -360,6 +360,7 @@ img {
 
   #HOME {
     background-size: cover;
+    max-height: 800px;
   }
 
   #CONCEPT {
