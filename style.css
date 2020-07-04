@@ -209,6 +209,7 @@ img {
   width: 25vw;
   min-width: 350px;
   margin-top: 5px;
+  margin-bottom: 15px;
 }
 .fairy-text1 {
   text-align: center;
@@ -221,6 +222,9 @@ img {
   display: flex;
   justify-content: center;
 }
+.FAIRY-image img {
+  margin-bottom:20px;
+}
 .fairy {
   height: 18vh;
   width: 18vw;
@@ -232,7 +236,6 @@ img {
 .fairy-name {
   font-size: 1.3rem;
   text-align: center;
-  margin-bottom: 100px;
 }
 
 /* フェアリー・個別 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -462,7 +465,7 @@ img {
     margin-top: 30px;
   }
   .photos {
-    max-width: 220px;
+    max-width: 100px;
   }
 
   #ACCESS {
