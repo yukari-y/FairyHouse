@@ -386,6 +386,7 @@ img {
   .FOOD-line {
     margin-top: 150px;
     min-height: 10vh;
+    max-width: 600px;
   }
   .food-text {
     font-size: 0.65rem;
@@ -399,6 +400,7 @@ img {
   .DRINK-line {
     margin-top: 70px;
     min-height: 10vh;
+    max-width: 600px;
   }
   .drink-text {
     font-size: 0.65rem;
