@@ -392,10 +392,10 @@ img {
     font-size: 0.65rem;
   }
   .line-L {
-    max-width: 400px;
+    max-width: 300px;
   }
   .line-R {
-    max-width: 400px;
+    max-width: 300px;
   }
   .menu-text {
     font-size: 0.5rem;
@@ -406,7 +406,6 @@ img {
   .DRINK-line {
     margin-top: 70px;
     min-height: 10vh;
-    max-width: 500px;
   }
   .drink-text {
     font-size: 0.65rem;
@@ -435,7 +434,7 @@ img {
     font-size: 0.65rem;
   }
   .fairy {
-    height: 10vh;
+    height: 6vh;
     width: 6vw;
   }
 
