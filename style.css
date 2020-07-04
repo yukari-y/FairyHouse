@@ -368,7 +368,7 @@ img {
     max-height: 800px;
   }
   .concept {
-  font-size: 0.4rem;
+   font-size: 0.4rem;
   }
   .concept-title {
     margin-top: 150px;
@@ -386,10 +386,16 @@ img {
   .FOOD-line {
     margin-top: 150px;
     min-height: 10vh;
-    max-width: 500px;
   }
   .food-text {
+    text-align: center;
     font-size: 0.65rem;
+  }
+  .line-L {
+    max-width: 400px;
+  }
+  .line-R {
+    max-width: 400px;
   }
   .menu-text {
     font-size: 0.5rem;
@@ -447,7 +453,7 @@ img {
   }
   .F-image {
     height: 10vh;
-    width: 10vw;
+    width: 6vw;
   }
 
   #ACCESS {
