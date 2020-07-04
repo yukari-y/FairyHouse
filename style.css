@@ -236,6 +236,7 @@ img {
 .fairy-name {
   font-size: 1.3rem;
   text-align: center;
+  margin-top: 20px;
 }
 
 /* フェアリー・個別 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -431,11 +432,11 @@ img {
     margin-top: 5px;
   }
   .fairy-text1 {
-    font-size: 0.55rem;
+    font-size: 0.45rem;
     margin-top: 5px;
   }
   .fairy-text2 {
-    font-size: 0.55rem;
+    font-size: 0.45rem;
   }
   .FAIRY-image {
     display: flex;
@@ -443,10 +444,11 @@ img {
     align-items: center;
   }
   .FAIRY-image img {
-    max-width: 130px;
+    max-width: 140px;
   }
   .FAIRY-image p {
     font-size: 0.65rem;
+    margin-top: 10px;
   }
 
   #FAIRYs {
@@ -459,9 +461,12 @@ img {
     font-size: 0.85rem;
   }
   .member-text h2 {
-    font-size: 0.5rem;
+    font-size: 0.45rem;
   }
   .F-image {
+    display: grid;
+    gap: 6px;
+    grid-template-columns: repeat(2, minmax(130px, 1fr));
     margin-top: 30px;
   }
   .photos {
