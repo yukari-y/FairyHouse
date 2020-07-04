@@ -350,10 +350,10 @@ img {
     font-size: 0.6rem;
   }
   .main-nav {
-    padding-top: 8px;
+    padding-top: 10px;
   }
   .main-nav li {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
   }
   .logo {
     padding-top: 8px;
@@ -361,8 +361,7 @@ img {
   }
 
   #HOME {
-    background-size: cover;
-    min-width: 760px;
+    max-height: 800px;
   }
     .nav-concept {
     margin-left: 10px;
