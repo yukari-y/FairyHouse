@@ -395,8 +395,8 @@ img {
     min-height: 10vh;
   }
   .food-text {
-    text-align: center;
     font-size: 0.5rem;
+    margin-top: 3px;
   }
   .line-L {
     max-width: 250px;
@@ -417,6 +417,7 @@ img {
   }
   .drink-text {
     font-size: 0.5rem;
+    margin-top: 3px;
   }
   .tea-text {
     font-size: 0.4rem;
@@ -444,9 +445,10 @@ img {
     align-items: center;
   }
   .FAIRY-image img {
-    max-width: 150px;
+    align-items: center;
+    max-width: 170px;
   }
-  .FAIRY-image p {
+  .fairy-name {
     font-size: 0.65rem;
     margin-top: 40px;
   }
@@ -455,7 +457,7 @@ img {
     max-height: 800px;
   }
   .frame-member-top {
-    margin-top: 170px;
+    margin-top: 160px;
   }
   .member-text h1 {
     font-size: 0.8rem;
@@ -466,10 +468,11 @@ img {
   .F-image {
     display: grid;
     gap: 1px;
-    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    grid-template-columns: repeat(2, minmax(170px, 1fr));
     margin-top: 30px;
   }
   .photos {
+    align-items: center;
     max-width: 100px;
   }
 
