@@ -362,6 +362,7 @@ img {
 
   #HOME {
     background-size: cover;
+    min-width: 760px;
   }
     .nav-concept {
     margin-left: 10px;
