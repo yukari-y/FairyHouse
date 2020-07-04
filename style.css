@@ -431,11 +431,17 @@ img {
   .fairy-text2 {
     font-size: 0.55rem;
   }
-  .FAIRY-image img {
-    max-width: 100px;
+  .FAIRY-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  .fairy-name {
+  .FAIRY-image img {
+    max-width: 130px;
+  }
+  .FAIRY-image p {
     font-size: 0.65rem;
+    margin-top: 50px;
   }
 
   #FAIRYs {
