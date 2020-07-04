@@ -396,13 +396,13 @@ img {
   }
   .food-text {
     text-align: center;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
   .line-L {
-    max-width: 200px;
+    max-width: 250px;
   }
   .line-R {
-    max-width: 200px;
+    max-width: 250px;
   }
   .menu-text {
     font-size: 0.5rem;
@@ -416,7 +416,7 @@ img {
     max-width: 500px;
   }
   .drink-text {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
   .tea-text {
     font-size: 0.4rem;
