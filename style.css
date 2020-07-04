@@ -434,8 +434,8 @@ img {
     font-size: 0.65rem;
   }
   .fairy {
-    height: 6vh;
-    width: 6vw;
+    height: 100px;
+    width: 100px;
   }
 
   #FAIRYs {
@@ -451,8 +451,8 @@ img {
     font-size: 0.5rem;
   }
   .F-image {
-    height: 10vh;
-    width: 6vw;
+    height: 100px;
+    width: 100px;
   }
 
   #ACCESS {
